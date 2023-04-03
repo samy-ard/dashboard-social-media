@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Social media dashboard with theme switcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="page">
+  <main class="content">
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-lg">
+            <h1 class="title">Social Media Dashboard</h1>
+            <h2 class="heading">Total Followers: 23,004</h2>
+          </div>
+          <div class="col col-12 col-lg-auto">
+            <div class="mode-toggler">
+              <span class="toggler-label">Dark Mode</span>
+              <div class="toggler-button"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="status">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-lg-3">
+            <div class="card card-social-media card-fb">
+              <div class="card-social-handler">
+                <img class="icon-sm" src="./images/icon-facebook.svg" alt="" aria-hidden="true">
+                <span class="label">@nathanf</span>
+              </div>
+              <div class="card-social-followers">
+                <span class="amount">1987</span>
+                <span class="label">Followers</span>
+              </div>
+              <div class="card-social-activity">
+                <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                <span class="label text-green">12 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-lg-3">
+            <div class="card card-social-media card-tt">
+              <div class="card-social-handler">
+                <img class="icon-sm" src="./images/icon-twitter.svg" alt="" aria-hidden="true">
+                <span class="label">@nathanf</span>
+              </div>
+              <div class="card-social-followers">
+                <span class="amount">1044</span>
+                <span class="label">Followers</span>
+              </div>
+              <div class="card-social-activity">
+                <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                <span class="label text-green">99 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-lg-3">
+            <div class="card card-social-media card-ig">
+              <div class="card-social-handler">
+                <img class="icon-sm" src="./images/icon-instagram.svg" alt="" aria-hidden="true">
+                <span class="label">@realnathanf</span>
+              </div>
+              <div class="card-social-followers">
+                <span class="amount">11k</span>
+                <span class="label">Followers</span>
+              </div>
+              <div class="card-social-activity">
+                <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                <span class="label text-green">1099 Today</span>
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-lg-3">
+            <div class="card card-social-media card-yt">
+              <div class="card-social-handler">
+                <img class="icon-sm" src="./images/icon-youtube.svg" alt="" aria-hidden="true">
+                <span class="label">Nathan F.</span>
+              </div>
+              <div class="card-social-followers">
+                <span class="amount">8239</span>
+                <span class="label">Subscribers</span>
+              </div>
+              <div class="card-social-activity">
+                <img src="./images/icon-down.svg" alt="" aria-hidden="true">
+                <span class="label text-red">144 Today</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="overview-title">Overview - Today</h2>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Page Views</h3>
+                  <h4 class="overview-item-amount">87</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-facebook.svg" alt="Facebook">
+                  <div class="overview-group">
+                    <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                    <span class="text-green">3%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Likes</h3>
+                  <h4 class="overview-item-amount">52</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-facebook.svg" alt="Facebook">
+                  <div class="overview-group">
+                    <img src="./images/icon-down.svg" alt="" aria-hidden="true">
+                    <span class="text-red">2%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Likes</h3>
+                  <h4 class="overview-item-amount">5462</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-instagram.svg" alt="Instagram">
+                  <div class="overview-group">
+                    <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                    <span class="text-green">2257%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Profile Views</h3>
+                  <h4 class="overview-item-amount">52k</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-instagram.svg" alt="Instagram">
+                  <div class="overview-group">
+                    <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                    <span class="text-green">1375%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Retweets</h3>
+                  <h4 class="overview-item-amount">117</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-twitter.svg" alt="Twitter">
+                  <div class="overview-group">
+                    <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                    <span class="text-green">303%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Likes</h3>
+                  <h4 class="overview-item-amount">507</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-twitter.svg" alt="Twitter">
+                  <div class="overview-group">
+                    <img src="./images/icon-up.svg" alt="" aria-hidden="true">
+                    <span class="text-green">553%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Likes</h3>
+                  <h4 class="overview-item-amount">107</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-youtube.svg" alt="Youtube">
+                  <div class="overview-group">
+                    <img src="./images/icon-down.svg" alt="" aria-hidden="true">
+                    <span class="text-red">19%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card card-overview">
+              <div class="row">
+                <div class="col">
+                  <h3 class="overview-item-title">Total Views</h3>
+                  <h4 class="overview-item-amount">1407</h4>
+                </div>
+                <div class="col-auto">
+                  <img class="icon-sm ml-auto" src="./images/icon-youtube.svg" alt="Youtube">
+                  <div class="overview-group">
+                    <img src="./images/icon-down.svg" alt="" aria-hidden="true">
+                    <span class="text-red">12%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
